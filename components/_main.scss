@@ -16,14 +16,14 @@
 		align-items: center;
 		justify-content: center;
 		.banner__img {
-			width: 12.5rem;
-			height: 12.5rem;
+			width: 12.5em;
+			height: 12.5em;
 			border-radius: 50%;
 		}
 		.banner__paragraph {
-			width: 31.25rem;
+			width: 31.25em;
 			color: #f2f2f2;
-			margin-bottom: 0.62rem;
+			margin-bottom: 0.62em;
 		}
 		.banner__btn-info {
 			width: 12.5em;
@@ -41,11 +41,27 @@
 	}
 }
 /* Main Section */
-.conteainr--sobre-mi{
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-
+.SobreMi {
+	padding: 1.875em 0;
+	.container__SobreMi {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.SobreMi__title-hero {
+		color: #5d6d7e;
+	}
+	.SobreMi__title {
+		margin-bottom: 0.9375em;
+		color: #5d6d7e;
+		font-size: 1.25em;
+	}
+	.SobreMi__paragraph {
+		margin-bottom: 1.25em;
+	}
+	.SobreMi__list {
+		list-style: none;
+		margin-bottom: 1.25em;
+	}
 }
