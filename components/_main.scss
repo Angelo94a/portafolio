@@ -33,9 +33,10 @@
 			border-radius: 10px;
 			cursor: pointer;
 			&:hover {
-				background-color: aqua;
+				background-color: #181818;
 				color: #f2f2f2;
-				transition: all 0.2s ease;
+				transform: scale(0.93);
+				transition: all 0.3s ease;
 			}
 		}
 	}
@@ -70,5 +71,31 @@
 		font-size: 2.18em;
 		color: #d0d3d4;
 		cursor: pointer;
+		&:hover {
+			/* font-size: 2.81em; */
+			transform: scale(1.5);
+			transition: all 0.3s ease;
+		}
+	}
+	.bxl-html5:hover {
+		color: #e34f26;
+	}
+	.bxl-css3:hover {
+		color: #3091f2;
+	}
+	.bxl-sass:hover {
+		color: #dc84ae;
+	}
+	.bxl-php:hover {
+		color: #8892be;
+	}
+	.bxl-javascript:hover {
+		color: #f7df1e;
+	}
+	.bxl-python:hover {
+		color: #4584b6;
+	}
+	.bxl-react:hover {
+		color: #00d8ff;
 	}
 }
