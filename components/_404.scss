@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	.bx {
+		font-size: 100px;
+		color: red;
+	}
+	.error {
+		font-size: 18.75em;
+		color: #b3b6b7;
+	}
+	.text {
+		font-size: 1.56em;
+		margin-bottom: 0.93em;
+		font-weight: 600;
+		color: #b3b6b7;
+	}
+	.btn__error {
+		border: none;
+		background-color: #b3b6b7;
+		padding: 0.93em 0.62em;
+		border-radius: 1.87em;
+		transition: all 0.3s ease;
+		&:hover {
+			background-color: #5d6d7e;
+			transform: scale(0.93);
+			transition: all 0.3s ease;
+		}
+	}
+	.btn__link {
+		text-decoration: none;
+		color: #fefefe;
+	}
+}
