@@ -105,7 +105,9 @@ body {
 		color: #00d8ff;
 	}
 }
+
 .contacto {
+	margin-bottom: 1.87em;
 	.container--contacto {
 		width: 60%;
 		display: flex;
@@ -131,5 +133,39 @@ body {
 			transform: scale(0.93);
 			transition: all 0.3s ease;
 		}
+	}
+}
+
+.footer {
+	width: 100%;
+	background-color: #5d6d7e;
+	color: #f2f2f2;
+	.footer__grup {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.937em 0;
+	}
+	.footer__social {
+		width: 100%;
+		padding: 0.93em 0;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.footer__links {
+			text-decoration: none;
+			color: #f3f3f3;
+			margin-left: 1.25em;
+		}
+	}
+	.footer__copy {
+		width: 100%;
+		padding: 0.93em 0;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
